@@ -122,4 +122,15 @@ Port: 1883
 
 ---
 
+
+---
+when publish something then topic will display with message in mqtt explorer
+in ubuntu cmd test
+# Publish
+mosquitto_pub -h localhost -t "mytopic" -m "test message"
+
+# Subscribe
+mosquitto_sub -h localhost -t "#"
+---
+
 Do you want me to do that?
