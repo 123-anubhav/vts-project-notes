@@ -1,6 +1,19 @@
 **comprehensive end-to-end Kafka Streams notes** for a **Spring Boot project**, covering **concepts, setup, why/when to use, code examples, and best practices**.
 
 ---
+for kafkastream u need to add
+kafkaStream ,org.json json dependency if needed dependency in pom.xml
+and in app.properties or.yml u need to add configuration
+
+spring:
+  kafka:
+    streams:
+      application-id: vts-stream-app
+or
+
+spring.kafka.streams.application-id=vts-stream-app
+
+This application-id acts as the Kafka consumer group ID for your stream processors. It must be unique across apps but consistent across instances of the same app.
 
 # **Kafka Streams End-to-End Notes with Spring Boot**
 
