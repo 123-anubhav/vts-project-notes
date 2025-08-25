@@ -173,7 +173,7 @@ productEvents.to("product-events");
 
 ---
 
-[Kstream](./Kstream.png)
+![Kstream](./Kstream.png)
 
 Would you like me to also **draw a diagram/flowchart** 📊 of this retail pipeline so you can visualize how these operators transform the streams?
 
