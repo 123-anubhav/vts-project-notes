@@ -1532,4 +1532,4 @@ vehicleStream.foreach((key, value) -> {
 Do you want me to **prepare full code of a Vehicle Tracking Kafka Streams microservice** (end-to-end with topics, serdes, overspeed detection, latest state, DB sink), or do you prefer **small modular code snippets for each use case**?
 
 
-![msStream](./)
+![msStream](./vts_kafka_streams_architecture.png)
